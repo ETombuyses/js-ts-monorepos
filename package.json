@@ -12,7 +12,21 @@
   "dependencies": {
     "@types/react": "^17.0.0"
   },
+  "scripts": {
+    "greet": "scripty",
+    "build": "scripty",
+    "clean": "scripty",
+    "lint": "scripty",
+    "test": "scripty"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
+  },
   "devDependencies": {
-    "rimraf": "^3.0.2"
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.0",
+    "eslint": "^7.18.0",
+    "rimraf": "^3.0.2",
+    "scripty": "^2.0.0"
   }
 }
